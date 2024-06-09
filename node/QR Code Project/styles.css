@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+  #level-title {
+    margin: 25px;
+    font-family: 'QR CODE GENERATOR 2P', cursive;
+    font-size: 3rem;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    /* text-shadow: 0 0 5px #000000; */
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
