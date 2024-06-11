@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Letters</title>
+</head>
+
+<body>
+  <% if (locals.numero) { %>
+    <h1>
+      There are <%= numero %> letter in your name xD.
+    </h1>
+  <%}else{%>
+    <h1>
+      Letter counter tap in your name.
+    </h1>
+  <%}%>
+  <form action="/submit" method="POST">
+    <input type="text" name="fName" id="fN"placeholder="First name">
+    <input type="text" name="lName" id="lN" placeholder="Last name">
+    <input type="submit" id="sbm" value="OK">
+  </form>
+</body>
+
+</html>
